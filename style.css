@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap");
+p {
+  margin-top: 0;
+}
+body,
+html {
+  font-family: "Noto Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #091616;
+  color: beige;
+}
+
+.capa {
+  width: 300px;
+  height: 300px;
+}
+
+.descricao {
+  width: 300px;
+}
+.msc-name {
+  margin-bottom: 0px;
+}
+.artname {
+  margin-top: 0px;
+}
+
+.duracao {
+  width: 300px;
+  margin-top: 25px;
+}
+.barra {
+  width: 300px;
+  height: 6px;
+  border: 1px solid beige;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+progress {
+  height: 6px;
+  width: 0%;
+}
+.ponto {
+  width: 20px;
+  height: 20px;
+  background-color: beige;
+  border-radius: 50%;
+  margin-left: -10px;
+}
+.temp {
+  display: flex;
+  width: 300px;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.player {
+  width: 300px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 30px;
+}
+.play,
+.pause {
+  cursor: pointer;
+  width: 30px;
+  height: 50px;
+}
+.next,
+.previous {
+  cursor: pointer;
+  width: 20px;
+}
+.pause {
+  display: none;
+}
